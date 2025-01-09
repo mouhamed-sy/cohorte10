@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #service{
+            border: none;
+            height: 600px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: nowrap;
+        }
+        .card{
+            border: 1px solid purple;
+            text-align: center;
+            padding: 20px;
+            border-radius: 5%;
+            width: 250px;
+        }
+        .card:hover{
+            transform: translateY(-10px);
+            box-shadow: 10px 10px 10px 10px yellow;
+
+        }
+        h3{
+            margin-top: 35px;
+            font-size: 20px;
+            color: yellow;
+            background-color: purple;
+            border-radius: 5px;
+            text-transform: uppercase;
+        }
+        p{
+            margin-top: 60px;
+
+        }
+        .btn{
+            margin-top: 90px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: purple;
+            color: yellow;
+            text-transform: uppercase;
+        }
+        .btn:hover{
+            background-color: yellow;
+            color: purple;
+        }
+        .card-image{
+            border: 1px solid purple;
+            width: 100%;
+            height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <section id="service">
+        <div class="card">
+            <img src="web.jpg" class="card-image">
+            <h3>developpement web</h3>
+            <p>Transformez votre vision en une réalité numérique avec notre service de conception de sites web. Spécialistes en création de plateformes web attrayantes et fonctionnelles, nous vous offrons des solutions sur mesure pour répondre à vos besoins spécifiques.</p>
+            <button class="btn">prendre</button>
+        </div>
+        <div class="card">
+            <img src="mobil.jpg" class="card-image">
+            <h3>applications mobiles</h3>
+            <p>Entrez dans le monde des applications mobiles avec notre service de développement. Nous créons des applications intuitives et performantes qui propulsent votre entreprise vers le succès.</p>
+            <button class="btn">prendre</button>
+        </div>
+        <div class="card">
+            <img src="design.jpeg" class="card-image">
+            <h3>design graphique</h3>
+            <p>Libérez le plein potentiel de votre marque avec notre service de design créatif. Nous transformons vos idées en visuels captivants qui attirent l'attention et racontent votre histoire de manière unique.</p>
+            <button class="btn">prendre</button>
+        </div>
+        <div class="card">
+            <img src="formation.jpeg" class="card-image">
+            <h3>formations</h3>
+            <p>Préparez-vous à entrer dans l'ère numérique avec nos formations spécialisées. Nous offrons des cours pratiques et adaptés aux besoins actuels du marché pour vous aider à développer vos compétences numériques.</p>
+            <button class="btn">prendre</button>
+        </div>
+
+    </section>
+</body>
+</html>
