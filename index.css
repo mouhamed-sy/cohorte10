@@ -11,8 +11,6 @@ body {
 
 .contact {
     border: 2px solid black;
-    width: 100px;
-    height: 100px;
     margin-top: 330px;
     display: flex;
     gap: 20px;
@@ -25,10 +23,7 @@ body {
 }
 
 .contact-form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+    
 }
 
 .contact-input {
