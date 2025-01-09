@@ -24,9 +24,10 @@ body {
 }
 
 .contact-form{
+    max-width: 600px;
     
 }
 
 .contact-input {
-    max-width: 600px;
+  
 }
